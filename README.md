@@ -8,30 +8,44 @@ Imgonna use token for SuperAdmin(can change and create anything) also for teache
 The Online Exam API is built using ASP.NET Core and Entity Framework, designed to manage online exams efficiently. This API provides endpoints for handling user authentication, exam creation, question management, result tracking, and more.
 
 Key Features & Functionalities
-**1. User Management**
+
+
+***1. User Management***
 User authentication and authorization (JWT-based).
 Role-based access control (Admin, Instructor, Student).
 Profile management.
+
+
+
+
 **2. Exam Management**
 Instructors can create, update, and delete exams.
 Define exam settings like duration, passing criteria, and question randomization.
 Assign exams to specific students or groups.
+
+
 **3. Question & Answer Management**
 Create multiple-choice, true/false, and open-ended questions.
 Support for different question difficulty levels.
 Options for shuffling questions per exam session.
+
+
 **4. Exam Attempt & Submission**
 Students can start, pause, and submit exams within a given time frame.
 Auto-save feature to prevent data loss.
 Timer management for live exams.
+
 **5. Result & Evaluation System**
 Auto-evaluation for multiple-choice and true/false questions.
 Instructors can manually grade open-ended questions.
 Generate exam reports, scores, and performance analysis.
+
+
 **6. Entity Framework & Database Management**
 Uses Entity Framework Core for database interactions.
 Supports MSSQL with migrations for schema updates.
 Well-structured entity relationships (User ↔ Exam ↔ Question ↔ Result).
+
 **7. Security & Scalability**
 JWT authentication for secure API access.
 Role-based authorization to control access to different endpoints.
