@@ -10,7 +10,7 @@ namespace OnlineExam.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
-
+        //[POST METHOD]
         public UserController(IUserService userService)
         {
             _userService = userService;
