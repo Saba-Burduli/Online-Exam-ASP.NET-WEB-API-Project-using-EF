@@ -50,3 +50,5 @@ Well-structured entity relationships (User ↔ Exam ↔ Question ↔ Result).
 JWT authentication for secure API access.
 Role-based authorization to control access to different endpoints.
 Designed for scalability, supporting future integrations with mobile apps or external LMS platforms.
+<br>
+ 📥  If you want to learn more about This Project you can actually contact me on Mail : **sabagg790@gmail.com**
